@@ -6,7 +6,7 @@ Helper script for pfSense that lists rules and toggles them on/off via CLI. The 
 
 - copy the php script to your firewall—one easy way to do this is to ssh to your firewall, choose option 8 and then paste this command:
 ```
-fetch https://raw.githubusercontent.com/luckman212/pf_fwrule_toggle/main/fwrule_toggle.php
+fetch https://raw.githubusercontent.com/dmytrokoren/pf_fwrule_toggle/main/fwrule_toggle.php
 ```
 - run it using the syntax below
 - you need to supply one or more rule ids as a parameter, or `-l` to list all rules
