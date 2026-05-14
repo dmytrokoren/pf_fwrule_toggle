@@ -17,6 +17,12 @@ fetch https://raw.githubusercontent.com/dmytrokoren/pf_fwrule_toggle/main/fwrule
 
 # Usage
 
+## Location of 'fwrule_toggle.php' file
+
+```sh
+cd /home/pf
+```
+
 ## Specify rules by ID
 
 This mode accepts 1 or more numeric rule IDs. You can prefix the number with `n` to select NAT rules, as opposed to filter rules which are the default.
